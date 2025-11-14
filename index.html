@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Conversión </title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h2>Conversión de Temperatura y Medidas</h2>
+
+  <div>
+    <h3>Temperatura</h3>
+    <label>Centígrados:</label>
+    <input id="celsius">
+    <button onclick="convertirAFahrenheit()">Convertir a Fahrenheit</button>
+    <p id="fResultado"></p>
+
+    <label>Fahrenheit:</label>
+    <input id="fahrenheit">
+    <button onclick="convertirACelsius()">Convertir a Centígrados</button>
+    <p id="cResultado"></p>
+  </div>
+
+  <div>
+    <h3>Medidas</h3>
+    <label>Centímetros:</label>
+    <input id="cm">
+    <button onclick="convertirAMetros()">Convertir a Metros</button>
+    <p id="mResultado"></p>
+
+    <label>Metros:</label>
+    <input id="m">
+    <button onclick="convertirACm()">Convertir a Centímetros</button>
+    <p id="cmResultado"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
